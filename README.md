@@ -1,4 +1,4 @@
-# Django 4 + HTMX Lab project
+# Django ~~4~~ 5! + HTMX Lab project
 It sounds like a perfect combo... Will it work for me?
 
 ## Dependencies installed
@@ -14,3 +14,6 @@ It sounds like a perfect combo... Will it work for me?
 SECRET=...
 DEBUG=True
 ```
+
+## Database
+In dev I'm using the attached `docker-mysql/docker-compose.yaml` and `init.sql` files.
