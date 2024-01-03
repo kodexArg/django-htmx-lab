@@ -2,11 +2,14 @@
 It sounds like a perfect combo... Will it work for me?
 
 ## Dependencies installed
+you can see these in requirements.txt
 - django
 - django-extensions
 - django-widget-tweaks
 - djangorestframework (not used)
 - loguru
+- 'django-tailwind[reload]'
+- mysqlclient
 
 ## Environment used (.env)
 
