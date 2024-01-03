@@ -1,0 +1,13 @@
+{% extends 'htmx.html' %}
+{% load static tailwind_tags %}
+{% tailwind_css %}
+{% block main %}
+  <div class="py-3 px-5 min-h-screen bg-gray-200 flex items-center justify-center">
+    <main>
+      <h1>Lorem tailwinipsum</h1>
+      <div class="text-justify text-xs font-mono">
+        {% lorem 5 b random %}
+      </div>
+    </main>
+  </div>
+{% endblock %}

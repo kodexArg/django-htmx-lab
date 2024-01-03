@@ -1,6 +1,9 @@
 from django.http import HttpResponse
 from django.views import View
+from django.views.generic import TemplateView
 
-class HelloWorldView(View):
-    def get(self, request, *args, **kwargs):
-        return HttpResponse("<h1>Hello, World!</h1>")
+from random import randint
+
+
+class Home(TemplateView):
+    template_name = "index.html"
